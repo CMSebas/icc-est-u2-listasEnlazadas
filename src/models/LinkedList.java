@@ -54,15 +54,14 @@ public void deleteByValue(T value) {
 
 public void print() {
     if (head == null) {
-        System.out.println("END");
         return;
     }
     Node<T> current = head;
     while (current.getNext() != null) {
-        System.out.print(current.getValue() + " -> ");
+    
         current = current.getNext();
     }
-    System.out.println(current.getValue() + " -> END");
+    System.out.println(current.getValue());
 }
 
 public int getSize() {

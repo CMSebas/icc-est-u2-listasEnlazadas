@@ -5,7 +5,7 @@ public class ConsoleView {
     private Scanner scanner = new Scanner(System.in);
 
     public void displayMenu() {
-        System.out.println("\n--- Menú ---");
+        System.out.println("--------------- Menú -----------");
         System.out.println("1. Agregar contacto");
         System.out.println("2. Buscar contacto");
         System.out.println("3. Eliminar contacto");
